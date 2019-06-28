@@ -19,6 +19,7 @@ public class MyListener implements Listener {
           - get location
           - set all items nearby in a chest
           - lock the chest ???
+          - place the chest in a correct place
         */
     }
 }

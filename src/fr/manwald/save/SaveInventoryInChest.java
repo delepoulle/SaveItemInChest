@@ -1,3 +1,12 @@
+/**
+ *
+ * A simple chest save inventory when a player dies.
+ *
+ * @version 0.9
+ * @author Samuel Delepoulle
+ */
+
+
 package fr.manwald.save;
 
 import org.bukkit.plugin.java.JavaPlugin;

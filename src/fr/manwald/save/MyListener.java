@@ -63,13 +63,12 @@ public class MyListener implements Listener {
 
 
         Player player = e.getEntity().getPlayer();
-        PlayerInventory playerInv = player.getInventory();
 
 
-        if (playerInv != null) {
-            chest.getInventory().setContents(playerInv.getContents());
-            playerInv.clear();
-            player.updateInventory();
+
+        if (player.getInventory() != null) {
+            chest.getInventory().setContents(player.getInventory().getContents());
+            e.getDrops().clear();
         }
 
 

@@ -2,7 +2,7 @@
  *
  * A simple chest save inventory when a player dies.
  *
- * @version 0.9
+ * @version 0.9.1
  * @author Samuel Delepoulle
  */
 

@@ -55,7 +55,13 @@ public class MyListener implements Listener {
 
         Location loc = e.getEntity().getLocation();
 
+        // if upside the map
+        if (loc.getY() < 0){
+            loc.setY(0);
+        }
+
         makeLargeChest(loc);
+        System.out.println(loc);
 
         Block block = loc.getBlock();
         Chest chest = (Chest) block.getState();
